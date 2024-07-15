@@ -6,8 +6,7 @@
 
 
 body {
-    background-color: white;       
-    /* color: #083a50; */
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -110,9 +109,9 @@ body {
         
     }
 
-    /* .role{
+    .role{
         font-size: 20px;
-    } */
+    }
 
     .info img{
         height: 12rem;
