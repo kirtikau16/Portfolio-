@@ -125,6 +125,7 @@ body {
 
     .info{
         gap: 20px;
+        margin: auto;
     }
 
     .role{
@@ -159,9 +160,11 @@ body {
         transition: 2s;
     }
 
-/*     #home_section{
-        height: 130vh;
-    } */
+    #home_section{
+        height: 600px;
+        padding: 0px;
+        margin: auto;
+    }
 
 }
 
