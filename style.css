@@ -112,14 +112,14 @@ body {
     }
 
     .navbar a{
-        font-size: 15px;
+        font-size: 17px;
         font-weight: normal;
         /* padding: auto; */
         /* transition: 1s; */
         height: 2rem;
         /* align-items: center;
         text-align: center; */
-        padding: 10px 5px;         
+        padding: 5px 5px;         
     }
 
     .info{
