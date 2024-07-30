@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #fbf3f2;
+    background-color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .navbar {
-    background-color: #083a50;
-    height: 3rem;
+    background-color: rgb(29, 28, 28);
+    height: 2.5rem;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -19,6 +19,8 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
     padding: 10px;
 }
 
@@ -26,17 +28,16 @@ body {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 8px 20px;
 }
 
 .navbar a:hover {
-    color: #FBF3F2;
-    background-color: #1C768F;
+    background-color: rgb(199, 197, 197);
     border-radius: 10px;
+    color: black;
 }
 
 #home_section {
-    /* height: 100vh;    */
     width: 100%;
     padding: 7rem 0;
 }
@@ -55,7 +56,7 @@ body {
 .info img {
     height: 12rem;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px 4px #083a50;
+    box-shadow: 5px 5px 5px 4px rgb(199, 197, 197);
 }
 
 #about_section {
@@ -66,20 +67,20 @@ body {
 
 .heading {
     /* font-size: 60px; */
-    color: #083a50;
-    padding: 3rem 0 2.5rem 0;
+    color: black;
+    padding: 3.5rem 0 1.5rem 0;
     text-align: center;
 }
 
 .about img {
     height: 13rem;
-    border: 2px solid #083a50;
+    /* border: 1px solid black; */
     border-radius: 10%;
-    box-shadow: 5px 5px 5px 4px #083a50;
+    box-shadow: 5px 5px 5px 4px rgb(199, 197, 197);
 }
 
 .about p {
-    color: #083a50;
+    color: black;
     font-size: large;
     font-weight: 600;
     padding: 40px;
@@ -94,21 +95,24 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+    /* background-color: gray; */
     /* text-decoration: none; */
     /* margin: 0 100px; */
 }
 .skills{
-    border: #083a50 solid 2px;
+    border: black solid 2px;
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 40px;
+    background-color:rgb(233, 228, 228) ;
+    /* opacity: 0.7; */
     /* text-decoration: none; */
     list-style: none;
     margin: auto;
 }
 
 .skills:hover{
-    box-shadow: 0px 0px 10px #083a50;
+    box-shadow: 0px 0px 10px black;
     
 }
 
@@ -116,6 +120,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .project_card h3{
@@ -126,15 +131,33 @@ body {
 .project_card{
     height: 300px;
     width: 400px;
-    border: 2px solid #083a50;
+    border: 2px solid black;
     margin: 20px;
     padding: 1.5rem;
     border-radius: 10px;
     line-height: 1.5;
+    background-color:rgb(233, 228, 228) ;
+}
+
+.project_card button{
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+.project_card button:hover{
+    background-color: white;
+    color: black;
+    border:  3px solid rgb(41, 40, 40);
+    box-shadow: 0px 0px 10px black;
 }
 
 .project_card:hover{
-    box-shadow: 0px 0px 10px #083a50;
+    box-shadow: 0px 0px 10px black;
     
 }
 
@@ -144,9 +167,10 @@ body {
 
 .resume{
     margin: auto;
-    background-color: #083a50;
-    color: #FBF3F2;
+    background-color: white;
+    color: black;
     padding: 10px;
+    border: black solid 2px;
     text-decoration: none;
     text-align: center;
 }
@@ -157,7 +181,7 @@ body {
     height: 50px;
     width: 300px;
     display: flex;
-    background-color: #aeccd4;
+    background-color: rgb(233, 228, 228);
     border-radius: 10px;
 }
 
@@ -167,17 +191,27 @@ body {
     margin: 10px;
     align-items: center;
     margin: auto;
+    opacity: 0.5;
+}
+
+.smicon a:hover{
+    opacity: 1;
 }
 
 .resume:hover{
-    box-shadow: 0px 0px 10px #1C768F
-    
+    box-shadow: 0px 0px 10px black ;
+    color: white;
+    background-color: black;
+
 }
 
-#resume_section h3{
-    /* padding-bottom: 10px; */
-    margin-bottom: 25px;
-}
+/* .resume a::after{
+    background: linear-gradient(to bottom right, 
+                rgb(0, 255, 81), rgb(255, 213, 0)); 
+    filter: blur(2.5em); 
+    z-index: -1; 
+} */
+
 
 .resume{
     border-radius: 10px;
